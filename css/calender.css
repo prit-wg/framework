@@ -1,0 +1,236 @@
+#filters {
+	background:#2A269F;
+    height: 40px;
+    margin: 0;
+    width: 571px;
+	border-radius: 6px 6px 6px 6px;
+}
+#calendar_container{
+        width:574px;
+        height:auto;
+        background:#FFFFFF;
+        margin:0px;
+		border: 1px solid #F0F4FF;
+}
+
+#calendar{
+        margin:auto;
+}
+
+.head{
+        width:80px;
+        height:30px;
+        text-align:center;
+        font-weight:bold;
+        float:left;
+        background:#289708;
+        color:#ffffff;
+        margin:1px;
+        line-height:30px;
+        text-transform:uppercase;
+}
+
+.box{
+        width:80px;
+        height:80px;
+        text-align:center;
+        font-weight:bold;
+        float:left;
+        background:#F0F4FF;
+        margin:1px;
+        font-size:20px;
+		color: #695E4A;
+}
+.box1{
+        width:80px;
+        height:80px;
+        color:#695E4A;
+        font-weight:bold;
+        float:left;
+        background:#F0F4FF;
+        margin:1px;
+        font-size:10px;
+}
+a.boxlink{
+    text-decoration:none;
+    color:#ffffff;
+  
+}
+
+#prev_month
+{
+    width:32px;
+    height:30px;
+    float:left;
+    padding:4px 0px 2px 5px;
+    
+}
+#prev_month a
+{
+    width:32px;
+    height:30px;
+    display:block;
+    background:url(../graphic/4-1.png) no-repeat;
+}
+#prev_month a:hover
+{
+    width:32px;
+    height:30px;
+    display:block;
+   
+}
+#next_month
+{
+    width:32px;
+    height:30px;
+    float:right;
+    padding:4px 5px 2px 0px;
+    
+}
+#next_month a
+{
+    width:32px;
+    height:30px;
+    display:block;
+    background:url(../graphic/3-1.png) no-repeat;
+}
+#next_month a:hover
+{
+    width:32px;
+    height:30px;
+    display:block;
+ 
+}
+#display_month{
+    
+  
+  margin-left:150px;
+  height:40px;
+  font-family: Aller, arial, helvetica, sans-serif;
+  font-size:27px;
+  color:#ffffff;
+  float:left;
+  padding-top:10px;
+  margin-right:10px;
+  text-align:center;
+}
+.year_bak{
+   width:80px;
+   height:27px;
+   float:left;
+   display:block;
+   padding: 4px;
+    
+}
+#change_year{
+    float:left;
+    width:125px;
+    height:40px;
+    padding-top:8px;
+    
+    
+}
+#filters #month{
+        float:left;
+        width:70px;
+        padding-top:5px;	
+        padding-right:5px;	
+        text-align:right;
+}
+
+#filters #year{
+        float:left;
+        width:150px;
+        text-align:right;
+        padding-top:5px;	
+        padding-left:5px;
+}
+#filters #cat{
+        float:left;
+        width:50px;
+        padding-top:5px;	
+        text-align:right;
+        
+}
+.dark{
+        background:#607041;
+}
+.eve{
+        height:auto;
+        width:200px;
+        border:solid 2px #761616;
+        background:#f5f5f5;
+        padding:5px;
+}
+
+.box ul{
+        margin:0px;
+        padding:0px;
+        list-style:none;
+}
+
+.box ul li{
+        font-size:13px;
+        background:#5F93C4;
+        padding:2px;
+        margin:2px 0px 2px 0px;
+}
+
+.box ul li a{
+        color:#FFFFFF;
+        text-decoration:none;
+}
+
+.box ul li a:hover{
+        color:#FFFFFF;
+        text-decoration:underline;
+}
+
+.colorss{
+        height:30px;
+        width:270px;
+        margin:0px;
+        float:right
+}
+.firstcolor
+{
+   width:100px;
+   height:30px;
+   float:left;
+}
+.istname{
+    width:60px;
+    height:30px;
+    float:left;
+}
+.firstname{
+    width:80px;
+    height:30px;
+    float:left;
+}
+
+.secondname{
+    width:30px;
+    height:30px;
+    float:left;
+}
+.secondcolor
+{
+   width:120px;
+   height:30px;
+   float:left;
+}
+.calender_event{
+    width:80px;
+    height:11px;
+    padding-top:1px;
+    padding-bottom:1px;
+    text-align:center;
+    float:left;
+    background:#2A269F;
+    font-size:9px;
+    line-height:11px;
+    color:white;
+    margin-top:4px;
+    overflow:hidden;
+}
