@@ -1,4 +1,4 @@
-<?
+<?php
 
 require_once("../include/config/config.php");
 $include_fucntions = array(

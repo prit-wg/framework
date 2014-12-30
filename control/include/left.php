@@ -22,7 +22,7 @@ $array = array(
 <div id="left_menu">
   <a href="javascript:;" id="hide_menu">&laquo;</a>
   <ul id="main_menu">
-    <? if ($PageAccess == '*'): ?>
+    <?php if ($PageAccess == '*'): ?>
         <li><a href="<?php echo make_admin_url('home', 'list', 'list'); ?>"><img src="images/icon_home.png" alt="Home"/>Home</a></li>
         <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/content.php'); ?></li>
         <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/event.php'); ?></li>
@@ -38,7 +38,7 @@ $array = array(
         <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/banner.php'); ?></li>
         <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/admin.php'); ?></li>
         <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/setting.php'); ?></li>
-        <!--<li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/demo.php'); ?></li>-->
+        <li><?php include_once(DIR_FS_SITE . ADMIN_FOLDER . '/left/demo.php'); ?></li>
     <?php else: ?>
         <li><a href="<?php echo make_admin_url('home', 'list', 'list'); ?>"><img src="images/icon_home.png" alt="Home"/>Home</a></li>
 
