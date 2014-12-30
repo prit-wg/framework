@@ -1,4 +1,5 @@
 <?php
+
 ob_start();
 error_reporting(E_ALL);
 #session reassigning using cookie here.
@@ -8,16 +9,16 @@ session_start();
 ############################     Website name: Grand Falls Windsor
 ###############################################################################################
 
-define("DIR_FS", $_SERVER['DOCUMENT_ROOT'], true);
+define("DIR_FS", $_SERVER['DOCUMENT_ROOT'] . '/', true);
 
 #Set Website Filesystem
-define("DIR_FS_SITE", DIR_FS . '/keith/', true);
+define("DIR_FS_SITE", DIR_FS . 'framework/', true);
 
 # Server path.
 define("HTTP_SERVER", "http://localhost/", true);
 
 # Set website
-define("DIR_WS_SITE", HTTP_SERVER . "keith/", true);
+define("DIR_WS_SITE", HTTP_SERVER . "framework/", true);
 
 # Database 
 $DBHostName = "localhost";
