@@ -31,8 +31,17 @@ $conf_shipping_type = array('quantity', 'subtotal');
 
 define('SHIPPING_TYPE', 'Quantity');
 
-$AllowedImageTypes = array('image/gif', 'image/jpeg', 'image/pjpeg', 'image/jpg', 'image/png');
-$AllowedFileTypes = array('application/vnd.ms-excel');
+$AllowedImageTypes = array(
+    'image/gif',
+    'image/jpeg',
+    'image/pjpeg',
+    'image/jpg',
+    'image/png'
+);
+
+$AllowedFileTypes = array(
+    'application/vnd.ms-excel'
+);
 
 # new allowed photo mime type array.
 $conf_allowed_file_mime_type = array(
