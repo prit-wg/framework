@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
-#RewriteRule ^keith/control/([^/]*)/([^/]*)/([^/]*)$ /keith/control/control.php?Page=$1&action=$2&section=$3 [L]
+#RewriteRule ^framework/([^/]*)/([^/]*)/([^/]*) /framework/index.php?Page=$1&action=$2&section=$3 [L]
